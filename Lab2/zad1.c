@@ -5,13 +5,13 @@ void main() {
 	int r,b;
 	printf ("Rad: ");
 	scanf ("%d", &r);
-	printf ("Wirina i Visota: ");
+	printf ("Weight and height: ");
 	scanf ("%d", &b);
-	printf ("Vozmojno?");
+	printf ("Is it possible?");
 	
-	if (r>b)
+	if (r*2>b*sqrt(2))
 	printf ("\r\nYes");
-	else (r<=b),
+	else
 	printf ("\r\nNo");
 	
 
