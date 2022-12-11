@@ -19,6 +19,6 @@ void main() {
 	if (c>0) c=1;
 	else c=0;
 	
-	printf ("Koli4estvo polojitelnih 4isel: %i", a+b+c);
+	printf ("Amount of positive number's: %i", a+b+c);
 		
 }
