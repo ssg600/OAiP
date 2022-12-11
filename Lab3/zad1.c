@@ -6,12 +6,12 @@ void main()
 	n=10000*0.03;
 	g=0;
 	
-	printf("Nachalnya summa - 10000 RUB.\n");
+	printf("Initial ammount - 10000 RUB.\n");
 	while(s<=20000) {
 		s+=n;
 		g++;
 	}
-	printf("Spustya ");
+	printf("Later ");
 	printf("%d", g);
-	printf(" let, summa udvoitsya.");
+	printf(" years, the ammount will double.");
 }
